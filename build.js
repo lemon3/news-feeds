@@ -28,11 +28,11 @@ const createOpml = (data) => {
   </head>`;
 
   opml += head;
-  opml += '\n\t<body>\n';
+  opml += `\n  <body>\n`;
   let content = '';
 
   data.forEach((item) => {
-    content += '\t\t<outline ';
+    content += `    <outline `;
     if (0 === item.category.length) {
       delete item.category;
     }
@@ -45,8 +45,7 @@ const createOpml = (data) => {
   });
 
   opml += content;
-  opml += '\t</body>';
-  opml += '\n</opml>';
+  opml += `  </body>\n</opml>`;
 
   return opml;
 };
