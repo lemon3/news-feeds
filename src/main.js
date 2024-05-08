@@ -159,6 +159,29 @@ export default [
     version: 'RSS',
     category: [],
   },
+  // oe24
+  {
+    title: 'oe24',
+    text: 'oe24',
+    description: '',
+    htmlUrl: 'https://www.oe24.at/',
+    xmlUrl: 'https://www.oe24.at/xml/rss',
+    language: 'AT',
+    type: 'rss',
+    version: 'RSS',
+    category: [],
+  },
+  {
+    title: 'oe24 - Leute',
+    text: 'oe24 - Leute',
+    description: '',
+    htmlUrl: 'https://www.oe24.at/leute',
+    xmlUrl: 'https://www.oe24.at/leute/xml/rss',
+    language: 'AT',
+    type: 'rss',
+    version: 'RSS',
+    category: [],
+  },
   // APA-OTS RSS Feed
   {
     title: 'APA-OTS RSS Feed',
