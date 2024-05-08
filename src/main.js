@@ -188,7 +188,7 @@ export default [
     text: 'APA-OTS RSS Feed',
     description: '',
     htmlUrl: 'https://www.ots.at/',
-    xmlUrl: 'https://www.sn.at/xml/rss',
+    xmlUrl: 'https://www.ots.at/rss/index',
     language: 'AT',
     type: 'rss',
     version: 'RSS',

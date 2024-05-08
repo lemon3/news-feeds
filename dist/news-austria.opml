@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>mySubscriptions.opml</title>
-    <dateCreated>Wed May 08 2024 18:48:03 GMT+0200 (Central European Summer Time)</dateCreated>
-    <dateModified>Wed May 08 2024 18:48:03 GMT+0200 (Central European Summer Time)</dateModified>
+    <dateCreated>Wed May 08 2024 18:51:38 GMT+0200 (Central European Summer Time)</dateCreated>
+    <dateModified>Wed May 08 2024 18:51:38 GMT+0200 (Central European Summer Time)</dateModified>
     <ownerName>wolfgang jungmayer</ownerName>
     <ownerEmail></ownerEmail>
   </head>
@@ -24,6 +24,6 @@
     <outline title="Salzburger Nachrichten" text="Salzburger Nachrichten" description="" htmlUrl="https://www.sn.at/" xmlUrl="https://www.sn.at/xml/rss" language="AT" type="rss" version="RSS" />
     <outline title="oe24" text="oe24" description="" htmlUrl="https://www.oe24.at/" xmlUrl="https://www.oe24.at/xml/rss" language="AT" type="rss" version="RSS" />
     <outline title="oe24 - Leute" text="oe24 - Leute" description="" htmlUrl="https://www.oe24.at/leute" xmlUrl="https://www.oe24.at/leute/xml/rss" language="AT" type="rss" version="RSS" />
-    <outline title="APA-OTS RSS Feed" text="APA-OTS RSS Feed" description="" htmlUrl="https://www.ots.at/" xmlUrl="https://www.sn.at/xml/rss" language="AT" type="rss" version="RSS" />
+    <outline title="APA-OTS RSS Feed" text="APA-OTS RSS Feed" description="" htmlUrl="https://www.ots.at/" xmlUrl="https://www.ots.at/rss/index" language="AT" type="rss" version="RSS" />
   </body>
 </opml>
