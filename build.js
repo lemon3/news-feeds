@@ -1,15 +1,26 @@
-import fs from 'node:fs/promises';
+import fs from 'node:fs';
 import pkg from './package.json' assert { type: 'json' };
 import data from './src/main.js';
 
 async function write(content, filename = 'news.opml') {
+  const dir = './dist';
+
   try {
-    const data = await fs.writeFile(`./dist/${filename}`, content);
-    return data;
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
   } catch (err) {
-    console.log(err);
-    return err;
+    console.error(err);
   }
+
+  fs.writeFile(`${dir}/${filename}`, content, (err) => {
+    if (err) {
+      console.error(err);
+    } else {
+      // file written successfully
+      console.log(`${filename} written`);
+    }
+  });
 }
 
 const createOpml = (data) => {
@@ -51,4 +62,8 @@ const createOpml = (data) => {
 };
 
 const opml = createOpml(data);
-write(opml);
+let minified = opml.trim();
+minified = minified.replace(/\s\s+/g, ' ');
+minified = minified.replace(/\>\ \</g, '><');
+write(opml, 'news-austria.opml');
+write(minified, 'news-austria.min.opml');

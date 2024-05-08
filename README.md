@@ -10,6 +10,9 @@ that can import an OPML file
 ## news
 right-click (or long-press on mobile) the link and select 'save link ass...'
 
-| news                | opml                                                                                     |
-| ------------------- | ---------------------------------------------------------------------------------------- |
-| Austrian News Feeds | [download opml](https://raw.githubusercontent.com/lemon3/news-feeds/main/dist/news.opml) |
+| news                | opml                |
+| ------------------- | ------------------- |
+| Austrian News Feeds | [news austria opml] |
+
+
+[news austria opml]: https://raw.githubusercontent.com/lemon3/news-feeds/main/dist/news-austria.min.opml

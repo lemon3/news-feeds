@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint 'src/**/*.js'",
-    "build": "node build.js"
+    "build": "node build.js",
+    "prebuild": "rimraf dist"
   },
   "keywords": [
     "news",
@@ -19,6 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globals": "^15.1.0",
+    "rimraf": "^5.0.5"
   }
 }
