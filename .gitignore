@@ -1,0 +1,11 @@
+_notes
+.DS_Store
+.nyc_output
+.phpintel
+.vscode
+*.log
+*.sublime-*
+coverage
+docs
+node_modules
+package
