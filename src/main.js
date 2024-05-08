@@ -147,4 +147,28 @@ export default [
     version: 'RSS',
     category: [],
   },
+  // Salzburger Nachrichten
+  {
+    title: 'Salzburger Nachrichten',
+    text: 'Salzburger Nachrichten',
+    description: '',
+    htmlUrl: 'https://www.sn.at/',
+    xmlUrl: 'https://www.sn.at/xml/rss',
+    language: 'AT',
+    type: 'rss',
+    version: 'RSS',
+    category: [],
+  },
+  // APA-OTS RSS Feed
+  {
+    title: 'APA-OTS RSS Feed',
+    text: 'APA-OTS RSS Feed',
+    description: '',
+    htmlUrl: 'https://www.ots.at/',
+    xmlUrl: 'https://www.sn.at/xml/rss',
+    language: 'AT',
+    type: 'rss',
+    version: 'RSS',
+    category: [],
+  },
 ];
