@@ -1,6 +1,6 @@
 {
   "name": "news-feeds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rss news feed collection",
   "author": "wolfgang jungmayer",
   "main": "build.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^9.2.0",
-    "globals": "^15.1.0",
+    "globals": "^15.2.0",
     "rimraf": "^5.0.5"
   }
 }
