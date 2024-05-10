@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import pkg from '../package.json' assert { type: 'json' };
+// import pkg from '../package.json' assert { type: 'json' };
 
 export const getCategories = (data) =>
   data.reduce((prev, cur) => {
@@ -74,7 +74,7 @@ export const createOpml = (data) => {
     <title>mySubscriptions.opml</title>
     <dateCreated>${time}</dateCreated>
     <dateModified>${time}</dateModified>
-    <ownerName>${pkg.author}</ownerName>
+    <ownerName></ownerName>
     <ownerEmail></ownerEmail>
   </head>`;
 
