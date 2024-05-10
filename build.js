@@ -7,6 +7,7 @@ const categoriesAT = getCategories(austria);
 categoriesAT.forEach((category) => {
   create(
     austria.filter((val) => val.category.indexOf(category) > -1),
+    category,
     `austria-${category}`
   );
 });
@@ -16,6 +17,7 @@ const categoriesDE = getCategories(germany);
 categoriesDE.forEach((category) => {
   create(
     germany.filter((val) => val.category.indexOf(category) > -1),
+    category,
     `germany-${category}`
   );
 });

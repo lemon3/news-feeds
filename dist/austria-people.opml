@@ -1,3 +1,14 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<opml version="2.0"><head><title>lemon3 list</title></head><body><outline type="rss" text="oe24 - Leute" title="oe24 - Leute" description="" htmlUrl="https://www.oe24.at/leute" xmlUrl="https://www.oe24.at/leute/xml/rss" language="de-AT" version="RSS2" category="/people" /><outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" /><outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" /><outline type="rss" text="k.at - promis" title="k.at - promis" description="" htmlUrl="https://k.at/promis" xmlUrl="https://k.at/promis/xml/rss" language="de-AT" version="RSS2" category="/people" /></body>
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>lemon3 list</title>
+  </head>
+  <body>
+    <outline text="people">
+      <outline type="rss" text="oe24 - Leute" title="oe24 - Leute" description="" htmlUrl="https://www.oe24.at/leute" xmlUrl="https://www.oe24.at/leute/xml/rss" language="de-AT" version="RSS2" category="/people" />
+      <outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" />
+      <outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" />
+      <outline type="rss" text="k.at - promis" title="k.at - promis" description="" htmlUrl="https://k.at/promis" xmlUrl="https://k.at/promis/xml/rss" language="de-AT" version="RSS2" category="/people" />
+    </outline>
+  </body>
 </opml>

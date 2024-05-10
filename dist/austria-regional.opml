@@ -1,3 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<opml version="2.0"><head><title>lemon3 list</title></head><body><outline type="rss" text="orf.at - österreich" title="orf.at - österreich" description="" htmlUrl="https://oesterreich.orf.at/" xmlUrl="https://rss.orf.at/oesterreich.xml" language="de-AT" version="RSS2" category="/news/regional" /></body>
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>lemon3 list</title>
+  </head>
+  <body>
+    <outline text="regional">
+      <outline type="rss" text="orf.at - österreich" title="orf.at - österreich" description="" htmlUrl="https://oesterreich.orf.at/" xmlUrl="https://rss.orf.at/oesterreich.xml" language="de-AT" version="RSS2" category="/news/regional" />
+    </outline>
+  </body>
 </opml>

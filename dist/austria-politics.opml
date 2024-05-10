@@ -1,3 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<opml version="2.0"><head><title>lemon3 list</title></head><body><outline type="rss" text="DiePresse.com - politik" title="DiePresse.com - politik" description="" htmlUrl="https://www.diepresse.com/innenpolitik" xmlUrl="https://www.diepresse.com/rss/Politik" language="de-AT" version="RSS2" category="/politics" /></body>
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>lemon3 list</title>
+  </head>
+  <body>
+    <outline text="politics">
+      <outline type="rss" text="DiePresse.com - politik" title="DiePresse.com - politik" description="" htmlUrl="https://www.diepresse.com/innenpolitik" xmlUrl="https://www.diepresse.com/rss/Politik" language="de-AT" version="RSS2" category="/politics" />
+    </outline>
+  </body>
 </opml>

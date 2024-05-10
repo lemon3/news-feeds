@@ -1,3 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<opml version="2.0"><head><title>lemon3 list</title></head><body><outline type="rss" text="derStandard.at - sport" title="derStandard.at - sport" description="" htmlUrl="https://www.derstandard.at/sport" xmlUrl="https://www.derstandard.at/rss/sport" language="de-AT" version="RSS2" category="/sports" /><outline type="rss" text="orf.at - sport" title="orf.at - sport" description="" htmlUrl="https://sport.orf.at/" xmlUrl="https://rss.orf.at/sport.xml" language="de-AT" version="RSS2" category="/sports" /><outline type="rss" text="krone.at - sport" title="krone.at - sport" description="" htmlUrl="https://www.krone.at/sport" xmlUrl="https://api.krone.at/v1/rss/rssfeed-sport.html" language="de-AT" version="RSS2" category="/sports" /></body>
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>lemon3 list</title>
+  </head>
+  <body>
+    <outline text="sports">
+      <outline type="rss" text="derStandard.at - sport" title="derStandard.at - sport" description="" htmlUrl="https://www.derstandard.at/sport" xmlUrl="https://www.derstandard.at/rss/sport" language="de-AT" version="RSS2" category="/sports" />
+      <outline type="rss" text="orf.at - sport" title="orf.at - sport" description="" htmlUrl="https://sport.orf.at/" xmlUrl="https://rss.orf.at/sport.xml" language="de-AT" version="RSS2" category="/sports" />
+      <outline type="rss" text="krone.at - sport" title="krone.at - sport" description="" htmlUrl="https://www.krone.at/sport" xmlUrl="https://api.krone.at/v1/rss/rssfeed-sport.html" language="de-AT" version="RSS2" category="/sports" />
+    </outline>
+  </body>
 </opml>

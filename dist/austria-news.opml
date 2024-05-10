@@ -1,3 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<opml version="2.0"><head><title>lemon3 list</title></head><body><outline type="rss" text="derStandard.at" title="derStandard.at" description="" htmlUrl="https://www.derstandard.at/" xmlUrl="https://www.derstandard.at/rss" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="DiePresse.com" title="DiePresse.com" description="" htmlUrl="https://www.diepresse.com" xmlUrl="https://www.diepresse.com/rss/home/" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="orf.at" title="orf.at" description="" htmlUrl="https://orf.at" xmlUrl="https://rss.orf.at/news.xml" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="orf.at - österreich" title="orf.at - österreich" description="" htmlUrl="https://oesterreich.orf.at/" xmlUrl="https://rss.orf.at/oesterreich.xml" language="de-AT" version="RSS2" category="/news/regional" /><outline type="rss" text="krone.at" title="krone.at" description="" htmlUrl="https://www.krone.at/" xmlUrl="https://api.krone.at/v1/rss/rssfeed-nachrichten.html" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="kurier.at" title="kurier.at" description="" htmlUrl="https://kurier.at/" xmlUrl="https://kurier.at/xml/rss" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="Salzburger Nachrichten" title="Salzburger Nachrichten" description="" htmlUrl="https://www.sn.at/" xmlUrl="https://www.sn.at/xml/rss" language="de-AT" version="RSS" category="/news" /><outline type="rss" text="oe24" title="oe24" description="" htmlUrl="https://www.oe24.at/" xmlUrl="https://www.oe24.at/xml/rss" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="APA-OTS" title="APA-OTS" description="" htmlUrl="https://www.ots.at/" xmlUrl="https://www.ots.at/rss/index" language="de-AT" version="RSS2" category="/news" /><outline type="rss" text="Kleine Zeitung" title="Kleine Zeitung" description="" htmlUrl="https://www.kleinezeitung.at" xmlUrl="https://www.kleinezeitung.at/rss/hp_stmk" language="de-AT" version="RSS2" category="/news" /></body>
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>lemon3 list</title>
+  </head>
+  <body>
+    <outline text="news">
+      <outline type="rss" text="derStandard.at" title="derStandard.at" description="" htmlUrl="https://www.derstandard.at/" xmlUrl="https://www.derstandard.at/rss" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="DiePresse.com" title="DiePresse.com" description="" htmlUrl="https://www.diepresse.com" xmlUrl="https://www.diepresse.com/rss/home/" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="orf.at" title="orf.at" description="" htmlUrl="https://orf.at" xmlUrl="https://rss.orf.at/news.xml" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="orf.at - österreich" title="orf.at - österreich" description="" htmlUrl="https://oesterreich.orf.at/" xmlUrl="https://rss.orf.at/oesterreich.xml" language="de-AT" version="RSS2" category="/news/regional" />
+      <outline type="rss" text="krone.at" title="krone.at" description="" htmlUrl="https://www.krone.at/" xmlUrl="https://api.krone.at/v1/rss/rssfeed-nachrichten.html" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="kurier.at" title="kurier.at" description="" htmlUrl="https://kurier.at/" xmlUrl="https://kurier.at/xml/rss" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="Salzburger Nachrichten" title="Salzburger Nachrichten" description="" htmlUrl="https://www.sn.at/" xmlUrl="https://www.sn.at/xml/rss" language="de-AT" version="RSS" category="/news" />
+      <outline type="rss" text="oe24" title="oe24" description="" htmlUrl="https://www.oe24.at/" xmlUrl="https://www.oe24.at/xml/rss" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="APA-OTS" title="APA-OTS" description="" htmlUrl="https://www.ots.at/" xmlUrl="https://www.ots.at/rss/index" language="de-AT" version="RSS2" category="/news" />
+      <outline type="rss" text="Kleine Zeitung" title="Kleine Zeitung" description="" htmlUrl="https://www.kleinezeitung.at" xmlUrl="https://www.kleinezeitung.at/rss/hp_stmk" language="de-AT" version="RSS2" category="/news" />
+    </outline>
+  </body>
 </opml>

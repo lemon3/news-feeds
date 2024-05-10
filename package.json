@@ -1,6 +1,6 @@
 {
   "name": "news-feeds",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "rss news feed collection",
   "author": "wolfgang jungmayer",
   "main": "build.js",

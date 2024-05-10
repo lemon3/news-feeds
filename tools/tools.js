@@ -14,16 +14,16 @@ export const getCategories = (data) =>
     return prev;
   }, []);
 
-export const create = (data, name) => {
+export const create = (data, category, name) => {
   // csv
   const csv = createCSV(data);
   write(csv, `${name}.csv`);
 
-  const opml = createOpml(data);
-  let minified = opml.trim();
-  minified = minified.replace(/\s\s+/g, ' ');
-  minified = minified.replace(/\>\ \</g, '><');
-  write(minified, `${name}.opml`);
+  const opml = createOpml(data, category);
+  // let minified = opml.trim();
+  // minified = minified.replace(/\s\s+/g, ' ');
+  // minified = minified.replace(/\>\ \</g, '><');
+  write(opml, `${name}.opml`);
 };
 
 export const createCSV = (data) => {
@@ -60,12 +60,12 @@ export const createCSV = (data) => {
   return csv;
 };
 
-export const createOpml = (data) => {
+export const createOpml = (data, category) => {
   let opml = '';
 
   const time = new Date();
 
-  const head = `<?xml version="1.0" encoding="ISO-8859-1"?>
+  const head = `<?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
     <title>lemon3 list</title>
@@ -75,8 +75,11 @@ export const createOpml = (data) => {
   opml += `\n  <body>\n`;
   let content = '';
 
+  // category
+  opml += `    <outline text="${category}">\n`;
+
   data.forEach((item) => {
-    content += `    <outline `;
+    content += `      <outline `;
     Object.entries(item).forEach((entry) => {
       let [key, value] = entry;
       if ('category' === key) {
@@ -88,6 +91,7 @@ export const createOpml = (data) => {
   });
 
   opml += content;
+  opml += `    </outline>\n`;
   opml += `  </body>\n</opml>`;
 
   return opml;
