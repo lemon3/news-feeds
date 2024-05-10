@@ -1,3 +1,5 @@
 title,text,description,htmlUrl,xmlUrl,language,type,version,category
 "oe24 - Leute","oe24 - Leute",,https://www.oe24.at/leute,https://www.oe24.at/leute/xml/rss,de-AT,rss,RSS2,people
 "Kleine Zeitung - Leute","Kleine Zeitung - Leute",,https://www.kleinezeitung.at/leute,https://www.kleinezeitung.at/rss/leute,de-AT,rss,RSS2,people
+"Kleine Zeitung - Leute","Kleine Zeitung - Leute",,https://www.kleinezeitung.at/leute,https://www.kleinezeitung.at/rss/leute,de-AT,rss,RSS2,people
+"k.at - promis","k.at - promis",,https://k.at/promis,https://k.at/promis/xml/rss,de-AT,rss,RSS2,people

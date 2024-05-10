@@ -1,0 +1,19 @@
+title,text,description,htmlUrl,xmlUrl,language,type,version,category
+"spiegel - Leute","spiegel - Leute",,https://www.spiegel.de/panorama/leute/,https://www.spiegel.de/panorama/leute/index.rss,de-DE,rss,RSS2,people
+"GQ magazin","GQ magazin",,https://www.gq-magazin.de/,https://www.gq-magazin.de/feed/rss,de-DE,rss,RSS2,people
+glamour,glamour,,https://www.glamour.de,https://www.glamour.de/feed/rss,de-DE,rss,RSS2,people
+OK!,OK!,,https://www.ok-magazin.de,https://www.ok-magazin.de/rss.xml,de-DE,rss,RSS2,people
+ohmymag,ohmymag,,https://www.ohmymag.de/,https://flux.ohmymag.de/rss/open/une.rss,de-DE,rss,RSS2,people
+"vogue germany","vogue germany",,https://www.vogue.de,https://www.vogue.de/feed/rss,de-DE,rss,RSS2,people
+glamour,glamour,,https://www.glamour.de/,https://www.glamour.de/feed/rss,de-DE,rss,RSS2,people
+wunderweib,wunderweib,,https://www.wunderweib.de,https://flipboard.com/@WunderweibDE.rss,de-DE,rss,RSS2,people
+bunte,bunte,,https://www.bunte.de/,https://flipboard.com/@BUNTE_DE.rss,de-DE,rss,RSS2,people
+brigitte,brigitte,,https://www.brigitte.de/,https://www.brigitte.de/feed.rss,de-DE,rss,RSS2,people
+klatsch-tratsch,klatsch-tratsch,,https://www.klatsch-tratsch.de/,https://www.klatsch-tratsch.de/feed/,de-DE,rss,RSS2,people
+"jolie - stars","jolie - stars",,https://www.jolie.de/stars,https://www.jolie.de/rss/stars/rss.xml,de-DE,rss,RSS2,people
+freundin,freundin,,https://www.freundin.de/,https://flipboard.com/@freundin_de.rss,de-DE,rss,RSS2,people
+gala,gala,,https://www.gala.de/,https://www.gala.de/feed/standard-rss/,de-DE,rss,RSS2,people
+instyle,instyle,,https://www.instyle.de/,https://flipboard.com/@InStyleGermany.rss,de-DE,rss,RSS2,people
+elle,elle,,https://www.elle.de/,https://flipboard.com/@ELLE_de.rss,de-DE,rss,RSS2,people
+"watson - stars","watson - stars",,https://www.watson.de/stars/,https://www.watson.de/api/2.0/rss/index.xml?tag=Stars,de-DE,rss,RSS2,people
+promipool,promipool,,https://www.promipool.de/,https://www.promipool.de/websub/feed/latest-news,de-DE,rss,RSS2,people
