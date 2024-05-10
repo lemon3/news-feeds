@@ -204,4 +204,15 @@ export default [
     version: 'RSS2',
     category: ['people'],
   },
+  {
+    title: 'cosmopolitan',
+    text: 'cosmopolitan',
+    description: '',
+    htmlUrl: 'https://www.cosmopolitan.de/',
+    xmlUrl: 'https://flipboard.com/@CosmopolitanDE.rss',
+    language: 'de-DE',
+    type: 'rss',
+    version: 'RSS2',
+    category: ['people'],
+  },
 ];
