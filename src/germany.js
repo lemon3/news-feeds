@@ -62,6 +62,7 @@ export default [
     title: 'gala',
     description: '',
     htmlUrl: 'https://www.gala.de/',
+    // xmlUrl: 'https://flipboard.com/@GalaDigital.rss',
     xmlUrl: 'https://www.gala.de/feed/standard-rss/',
     language: 'de-DE',
     version: 'RSS2',
