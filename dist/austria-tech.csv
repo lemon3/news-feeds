@@ -1,2 +1,2 @@
-title,text,description,htmlUrl,xmlUrl,language,type,version,category
-"orf.at - science","orf.at - science",,https://science.orf.at/,https://rss.orf.at/science.xml,de-AT,rss,RSS2,tech
+type,text,title,description,htmlUrl,xmlUrl,language,version,category
+rss,"orf.at - science","orf.at - science",,https://science.orf.at/,https://rss.orf.at/science.xml,de-AT,RSS2,tech

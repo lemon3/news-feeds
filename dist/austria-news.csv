@@ -1,11 +1,11 @@
-title,text,description,htmlUrl,xmlUrl,language,type,version,category
-derStandard.at,derStandard.at,,https://www.derstandard.at/,https://www.derstandard.at/rss,de-AT,rss,RSS2,news
-DiePresse.com,DiePresse.com,,https://www.diepresse.com,https://www.diepresse.com/rss/home/,de-AT,rss,RSS2,news
-orf.at,orf.at,,https://orf.at,https://rss.orf.at/news.xml,de-AT,rss,RSS2,news
-"orf.at - österreich","orf.at - österreich",,https://oesterreich.orf.at/,https://rss.orf.at/oesterreich.xml,de-AT,rss,RSS2,"news, regional"
-krone.at,krone.at,,https://www.krone.at/,https://api.krone.at/v1/rss/rssfeed-nachrichten.html,de-AT,rss,RSS2,news
-kurier.at,kurier.at,,https://kurier.at/,https://kurier.at/xml/rss,de-AT,rss,RSS2,news
-"Salzburger Nachrichten","Salzburger Nachrichten",,https://www.sn.at/,https://www.sn.at/xml/rss,de-AT,rss,RSS,news
-oe24,oe24,,https://www.oe24.at/,https://www.oe24.at/xml/rss,de-AT,rss,RSS2,news
-APA-OTS,APA-OTS,,https://www.ots.at/,https://www.ots.at/rss/index,de-AT,rss,RSS2,news
-"Kleine Zeitung","Kleine Zeitung",,https://www.kleinezeitung.at,https://www.kleinezeitung.at/rss/hp_stmk,de-AT,rss,RSS2,news
+type,text,title,description,htmlUrl,xmlUrl,language,version,category
+rss,derStandard.at,derStandard.at,,https://www.derstandard.at/,https://www.derstandard.at/rss,de-AT,RSS2,news
+rss,DiePresse.com,DiePresse.com,,https://www.diepresse.com,https://www.diepresse.com/rss/home/,de-AT,RSS2,news
+rss,orf.at,orf.at,,https://orf.at,https://rss.orf.at/news.xml,de-AT,RSS2,news
+rss,"orf.at - österreich","orf.at - österreich",,https://oesterreich.orf.at/,https://rss.orf.at/oesterreich.xml,de-AT,RSS2,"news, regional"
+rss,krone.at,krone.at,,https://www.krone.at/,https://api.krone.at/v1/rss/rssfeed-nachrichten.html,de-AT,RSS2,news
+rss,kurier.at,kurier.at,,https://kurier.at/,https://kurier.at/xml/rss,de-AT,RSS2,news
+rss,"Salzburger Nachrichten","Salzburger Nachrichten",,https://www.sn.at/,https://www.sn.at/xml/rss,de-AT,RSS,news
+rss,oe24,oe24,,https://www.oe24.at/,https://www.oe24.at/xml/rss,de-AT,RSS2,news
+rss,APA-OTS,APA-OTS,,https://www.ots.at/,https://www.ots.at/rss/index,de-AT,RSS2,news
+rss,"Kleine Zeitung","Kleine Zeitung",,https://www.kleinezeitung.at,https://www.kleinezeitung.at/rss/hp_stmk,de-AT,RSS2,news

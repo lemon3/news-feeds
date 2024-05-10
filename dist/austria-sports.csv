@@ -1,4 +1,4 @@
-title,text,description,htmlUrl,xmlUrl,language,type,version,category
-"derStandard.at - sport","derStandard.at - sport",,https://www.derstandard.at/sport,https://www.derstandard.at/rss/sport,de-AT,rss,RSS2,sports
-"orf.at - sport","orf.at - sport",,https://sport.orf.at/,https://rss.orf.at/sport.xml,de-AT,rss,RSS2,sports
-"krone.at - sport","krone.at - sport",,https://www.krone.at/sport,https://api.krone.at/v1/rss/rssfeed-sport.html,de-AT,rss,RSS2,sports
+type,text,title,description,htmlUrl,xmlUrl,language,version,category
+rss,"derStandard.at - sport","derStandard.at - sport",,https://www.derstandard.at/sport,https://www.derstandard.at/rss/sport,de-AT,RSS2,sports
+rss,"orf.at - sport","orf.at - sport",,https://sport.orf.at/,https://rss.orf.at/sport.xml,de-AT,RSS2,sports
+rss,"krone.at - sport","krone.at - sport",,https://www.krone.at/sport,https://api.krone.at/v1/rss/rssfeed-sport.html,de-AT,RSS2,sports

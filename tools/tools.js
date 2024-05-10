@@ -68,11 +68,7 @@ export const createOpml = (data) => {
   const head = `<?xml version="1.0" encoding="ISO-8859-1"?>
 <opml version="2.0">
   <head>
-    <title>mySubscriptions.opml</title>
-    <dateCreated>${time}</dateCreated>
-    <dateModified>${time}</dateModified>
-    <ownerName>lemon3</ownerName>
-    <ownerEmail></ownerEmail>
+    <title>lemon3 list</title>
   </head>`;
 
   opml += head;
