@@ -1,6 +1,6 @@
 # news-feeds
 
-right-click (or long-press on mobile) the link and select 'save link ass...'
+right-click (or long-press on mobile) the link and select 'save link as...'
 
 ### Austria
 | Category       | opml                                     | csv                                    |
