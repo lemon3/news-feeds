@@ -8,7 +8,7 @@ export default [
     xmlUrl: 'https://www.derstandard.at/rss/sport',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['sports'],
   },
   {
@@ -19,7 +19,7 @@ export default [
     xmlUrl: 'https://www.derstandard.at/rss',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   // die presse
@@ -31,7 +31,7 @@ export default [
     xmlUrl: 'https://www.diepresse.com/rss/home/',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   {
@@ -42,7 +42,7 @@ export default [
     xmlUrl: 'https://www.diepresse.com/rss/Wirtschaft',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['business'],
   },
   {
@@ -53,7 +53,7 @@ export default [
     xmlUrl: 'https://www.diepresse.com/rss/Politik',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['politics'],
   },
   {
@@ -64,7 +64,7 @@ export default [
     xmlUrl: 'https://www.diepresse.com/rss/Kultur',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['culture'],
   },
   // orf
@@ -76,7 +76,7 @@ export default [
     xmlUrl: 'https://rss.orf.at/news.xml',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   {
@@ -87,7 +87,7 @@ export default [
     xmlUrl: 'https://rss.orf.at/science.xml',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['tech'],
   },
   {
@@ -98,7 +98,7 @@ export default [
     xmlUrl: 'https://rss.orf.at/oesterreich.xml',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news', 'regional'],
   },
   {
@@ -109,7 +109,7 @@ export default [
     xmlUrl: 'https://rss.orf.at/sport.xml',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['sports'],
   },
   // krone
@@ -121,7 +121,7 @@ export default [
     xmlUrl: 'https://api.krone.at/v1/rss/rssfeed-nachrichten.html',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   {
@@ -132,7 +132,7 @@ export default [
     xmlUrl: 'https://api.krone.at/v1/rss/rssfeed-sport.html',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['sports'],
   },
   // kurier
@@ -144,7 +144,7 @@ export default [
     xmlUrl: 'https://kurier.at/xml/rss',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   // Salzburger Nachrichten
@@ -168,7 +168,7 @@ export default [
     xmlUrl: 'https://www.oe24.at/xml/rss',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
   },
   {
@@ -179,7 +179,7 @@ export default [
     xmlUrl: 'https://www.oe24.at/leute/xml/rss',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['people'],
   },
   // APA-OTS RSS Feed
@@ -191,7 +191,30 @@ export default [
     xmlUrl: 'https://www.ots.at/rss/index',
     language: 'de-AT',
     type: 'rss',
-    version: 'RSS',
+    version: 'RSS2',
     category: ['news'],
+  },
+  // Kleine Zeitung
+  {
+    title: 'Kleine Zeitung',
+    text: 'Kleine Zeitung',
+    description: '',
+    htmlUrl: 'https://www.kleinezeitung.at',
+    xmlUrl: 'https://www.kleinezeitung.at/rss/hp_stmk',
+    language: 'de-AT',
+    type: 'rss',
+    version: 'RSS2',
+    category: ['news'],
+  },
+  {
+    title: 'Kleine Zeitung - Leute',
+    text: 'Kleine Zeitung - Leute',
+    description: '',
+    htmlUrl: 'https://www.kleinezeitung.at/leute',
+    xmlUrl: 'https://www.kleinezeitung.at/rss/leute',
+    language: 'de-AT',
+    type: 'rss',
+    version: 'RSS2',
+    category: ['people'],
   },
 ];

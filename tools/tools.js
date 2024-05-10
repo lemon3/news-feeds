@@ -14,10 +14,7 @@ export const getCategories = (data) =>
     return prev;
   }, []);
 
-export const create = (_data, name) => {
-  const data = _data.slice(0); // clone
-  console.log(data);
-
+export const create = (data, name) => {
   // csv
   const csv = createCSV(data);
   write(csv, `${name}.csv`);
@@ -74,7 +71,7 @@ export const createOpml = (data) => {
     <title>mySubscriptions.opml</title>
     <dateCreated>${time}</dateCreated>
     <dateModified>${time}</dateModified>
-    <ownerName></ownerName>
+    <ownerName>lemon3</ownerName>
     <ownerEmail></ownerEmail>
   </head>`;
 
