@@ -103,6 +103,17 @@ export default [
   },
   {
     type: 'rss',
+    text: 'intouch',
+    title: 'intouch',
+    description: '',
+    htmlUrl: 'https://intouch.wunderweib.de/',
+    xmlUrl: 'https://flipboard.com/@InTouch_DE.rss',
+    language: 'de-DE',
+    version: 'RSS2',
+    category: ['people'],
+  },
+  {
+    type: 'rss',
     text: 'jolie - stars',
     title: 'jolie - stars',
     description: '',
