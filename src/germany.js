@@ -160,6 +160,17 @@ export default [
   },
   {
     type: 'rss',
+    text: 'promiflash',
+    title: 'promiflash',
+    description: '',
+    htmlUrl: 'https://www.promiflash.de/',
+    xmlUrl: 'https://www.promiflash.de/feed/',
+    language: 'de-DE',
+    version: 'RSS2',
+    category: ['people'],
+  },
+  {
+    type: 'rss',
     text: 'promipool',
     title: 'promipool',
     description: '',
