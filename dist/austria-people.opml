@@ -5,6 +5,7 @@
   </head>
   <body>
     <outline text="people">
+      <outline type="rss" text="freizeit.at" title="freizeit.at" description="" htmlUrl="https://freizeit.at" xmlUrl="https://freizeit.at/xml/rss" language="de-AT" version="RSS2" category="/people" />
       <outline type="rss" text="oe24 - Leute" title="oe24 - Leute" description="" htmlUrl="https://www.oe24.at/leute" xmlUrl="https://www.oe24.at/leute/xml/rss" language="de-AT" version="RSS2" category="/people" />
       <outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" />
       <outline type="rss" text="Kleine Zeitung - Leute" title="Kleine Zeitung - Leute" description="" htmlUrl="https://www.kleinezeitung.at/leute" xmlUrl="https://www.kleinezeitung.at/rss/leute" language="de-AT" version="RSS2" category="/people" />

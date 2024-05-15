@@ -1,4 +1,5 @@
 type,text,title,description,htmlUrl,xmlUrl,language,version,category
+rss,freizeit.at,freizeit.at,,https://freizeit.at,https://freizeit.at/xml/rss,de-AT,RSS2,people
 rss,"oe24 - Leute","oe24 - Leute",,https://www.oe24.at/leute,https://www.oe24.at/leute/xml/rss,de-AT,RSS2,people
 rss,"Kleine Zeitung - Leute","Kleine Zeitung - Leute",,https://www.kleinezeitung.at/leute,https://www.kleinezeitung.at/rss/leute,de-AT,RSS2,people
 rss,"Kleine Zeitung - Leute","Kleine Zeitung - Leute",,https://www.kleinezeitung.at/leute,https://www.kleinezeitung.at/rss/leute,de-AT,RSS2,people

@@ -119,6 +119,7 @@ export default [
     title: 'krone.at',
     description: '',
     htmlUrl: 'https://www.krone.at/',
+    // xmlUrl: 'https://api.krone.at/v1/rss/rssfeed-google.xml?id=2311992',
     xmlUrl: 'https://api.krone.at/v1/rss/rssfeed-nachrichten.html',
     language: 'de-AT',
     version: 'RSS2',
@@ -136,6 +137,17 @@ export default [
     category: ['sports'],
   },
   // kurier
+  {
+    type: 'rss',
+    text: 'freizeit.at',
+    title: 'freizeit.at',
+    description: '',
+    htmlUrl: 'https://freizeit.at',
+    xmlUrl: 'https://freizeit.at/xml/rss',
+    language: 'de-AT',
+    version: 'RSS2',
+    category: ['people'],
+  },
   {
     type: 'rss',
     text: 'kurier.at',
